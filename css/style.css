@@ -1,0 +1,129 @@
+* {
+	margin: 0;
+	padding: 0;
+
+}
+body {
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(-45deg, #77abb7, #476d7c, #254b62, #1d3e53, #2c3434);
+	background-size: 400% 400%;
+	animation-name: bgcolor;
+	animation-duration: 15s;
+	animation-iteration-count: infinite;
+	color: #f0c38e;
+}
+
+@keyframes bgcolor {
+	0% {
+		background-position: 0 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0 50%;
+	}
+}
+h1 {
+	color: #222831;
+	font-family: 'Monoton', cursive;
+	font-size: 64px;
+	font-weight: lighter;
+	text-shadow: 0px 1px 10px #00adb5;
+	text-align: center;
+	text-decoration: underline white;
+	word-spacing: 10px;
+	border: 3px solid white;
+	padding: 20px 0px;
+	background-image: url(https://i.redd.it/9qrp6ogoxhq51.png);
+}
+
+h2 {
+	color: white;
+	font-family: 'Pacifico', cursive;
+	font-size: 50px;
+	text-shadow: 0px 1px 10px yellow;
+	text-align: center;
+	border: 5px solid #70af85;
+	padding: 10px 0px;
+	background: url(../css/image1.png);
+}
+p {
+	font-size: 32px;
+	color: black;
+	font-family: Arial, sans serif;
+	font-weight: bolder;
+	font-style: italic;
+	text-align: center;
+	position: relative;
+	top: 30px;
+	text-shadow: 2px 2px 5px white;
+}
+
+.ranking_1 {
+	font-size: 40px;
+	font-family: 'Rubik Mono One', sans-serif;
+	text-align: center;
+	position: relative;
+	top: 80px;
+	color: white;
+	text-shadow: 3px 1px 10px red;
+}
+.content-table {
+	position: absolute;
+	top: 475px;
+	left: 36%;
+	border-collapse: collapse;
+	margin: 25px 0;
+	font-size: 28px;
+	font-family: Arial;
+	min-width: 700px;
+}
+.content-table thead tr {
+	background-color: #00af91;
+	color: #007965;
+	text-align: center;
+	font-weight: bold;
+}
+.content-table th,
+.content-table td {
+	padding: 12px 15px;
+}
+.content-table tbody tr {
+	border-bottom: 1px solid #fff3e6;
+}
+.content-table-2 {
+	position: absolute;
+	top: 950px;
+	left: 36%;
+	border-collapse: collapse;
+	margin: 25px 0;
+	font-size: 28px;
+	font-family: Arial;
+	min-width: 700px;
+}
+.content-table-2 thead tr {
+	background-color: #00af91;
+	color: #007965;
+	text-align: center;
+	font-weight: bold;
+}
+.content-table-2 th,
+.content-table-2 td {
+	padding: 12px 15px;
+}
+.content-table-2 tbody tr {
+	border-bottom: 1px solid #fff3e6;
+}
+
+
+.ranking_2 {
+	font-size: 40px;
+	font-family: 'Rubik Mono One', sans-serif;
+	text-align: center;
+	position: relative;
+	top: 500px;
+	color: white;
+	text-shadow: 3px 1px 10px blue;
+}
